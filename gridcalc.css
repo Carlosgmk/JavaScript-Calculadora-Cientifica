@@ -1,0 +1,74 @@
+.teclas{
+     display: grid;
+     grid-template-areas:
+        "CE conversao porcentagem divisao"
+        "sete oito nove multiplicar"
+        "quatro cinco seis menos"
+        "um dois tres mais"
+        "vazio vazio virgula igual";
+     
+     width: 100%;
+     margin: 3vh ;
+     padding: 3px;
+     border-radius: 15px;;
+}
+#limpar{
+     grid-area: CE;
+}
+#tmaisomenos{
+     grid-area: conversao;
+}
+#tporcen{
+     grid-area: porcentagem;
+}
+#td{
+     /* divisao */
+     grid-area: divisao;
+
+}
+#t7{
+     grid-area: sete;
+}
+#t8{
+     grid-area: oito;
+}
+#t9{
+     grid-area: nove;
+}
+#tx{
+     grid-area: multiplicar;
+}
+#t4{
+     grid-area: quatro;
+}
+#t5{
+     grid-area: cinco;
+}
+#t6{
+     grid-area: seis;
+}
+#tmenos{
+     grid-area: menos;
+}
+#t1{
+     grid-area: um;
+}
+#t2{
+     grid-area: dois;
+}
+#t3{
+     grid-area: tres;
+}
+#tmais{
+     grid-area: mais ;
+}
+
+#t0{
+     grid-area: vazio;
+}
+#tseparador{
+     grid-area: virgula ;
+}
+#tigual{
+     grid-area: igual;
+}
